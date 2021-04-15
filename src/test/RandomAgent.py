@@ -38,7 +38,7 @@ class RandomAgent:
     def equals(self, obj):
         if(obj==None):
             return False
-       
+
 
 
 #
