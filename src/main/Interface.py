@@ -1,6 +1,6 @@
 
-
 def main():
+    print("---------------------------------------")
     print("Welcome to Undercover Music Generator!!")
     print("---------------------------------------")
 
@@ -14,13 +14,15 @@ def main():
         choice = int(input())
 
         if choice==1:
-            createMinorScale()
+            print("A Minor\nBb Minor\nB Minor\nC Minor\nC# Minor\nD Minor\nD# Minor\nE Minor\nF Minor\nF# Minor\nG Minor\nG# Minor")
+            # createMinorScale()
         elif choice==2:
-            createMajorScale()
-        else:
-            createRandomScale()
+            print("Ab Major\nA Major\nBb Major\nB Major\nC Major\nDb Major\nD Major\nEb Major\nE Major\nF Major\nF# Major\nG Major")
+            # createMajorScale()
+        # else:
+        #     createRandomScale()
 
 if __name__ == "__main__":
-       main()
+    main()
 
 
