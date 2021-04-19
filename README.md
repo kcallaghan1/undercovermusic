@@ -8,6 +8,8 @@
 https://docs.google.com/spreadsheets/d/1SHB_B4du3JVB1kvVBUEHTpZjpqHBmugWnQVnm2stGCs/edit?usp=sharing
 #### Classical Music Kaggle Download
 https://www.kaggle.com/soumikrakshit/classical-music-midi
+#### Midi Notation
+https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies
 
 #### Instructions on how to set up/run the unit tests of the environment
 
