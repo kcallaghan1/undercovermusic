@@ -30,7 +30,7 @@ https://www.kaggle.com/soumikrakshit/classical-music-midi
 * Step5: We will use the lookup table ... 
 
 ### Actuators:
-Can modify text files (minor/major/random) that can be played via [Online Sequencer](https://onlinesequencer.net).
+Can modify or generate/write new text files (minor/major/random) that can be played via [Online Sequencer](https://onlinesequencer.net).
 ### Sensors:
 Can “read” text files (minor/major/random) that can be played on [Online Sequencer](https://onlinesequencer.net).
 
