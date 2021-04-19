@@ -29,11 +29,13 @@ https://www.kaggle.com/soumikrakshit/classical-music-midi
 * Step4: After the user creates/alters a text file he/she can use how good music has been made my our agent and compare it to the [older version](https://github.com/timothymarotta/aimusicmaker) of this project, which was created using Java.
 * Step5: We will use the lookup table ... 
 
+#### Notes to clarify where the sensor and actuator interfaces are located in the codebase
+
 ### Actuators:
 Can modify or generate/write new text files (minor/major/random) that can be played via [Online Sequencer](https://onlinesequencer.net).
+Present in the UI
 ### Sensors:
 Can “read” text files (minor/major/random) that can be played on [Online Sequencer](https://onlinesequencer.net).
-
-#### Notes to clarify where the sensor and actuator interfaces are located in the codebase
+Present in the UI
 
 Music AI Agents for CS354
