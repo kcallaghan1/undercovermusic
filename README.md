@@ -8,6 +8,9 @@
 - Our agent is a simple reflex agent, as it takes decisions on the basis of the current percepts and ignore the rest of the percept history. 
 - This simple AI agent is present in the src/main/SimpleAgent.py
 
+-What is a Midi file?
+https://github.com/vishnubob/python-midi#Installation
+
 ### Chord Progression Database
 https://docs.google.com/spreadsheets/d/1SHB_B4du3JVB1kvVBUEHTpZjpqHBmugWnQVnm2stGCs/edit?usp=sharing
 #### Classical Music Kaggle Download
