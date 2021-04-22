@@ -8,7 +8,7 @@ def main():
     print("1. Simple\n2. Complex")
     agentChoice = input()
     
-    while agentChoice==1:
+    while agentChoice:
         print("What do you want to do?")
         print("1. Create Chord Progression\n2. Choose Pre-made Chord Progression\n3. Random Chord Progression\n4. Quit")
         choiceToDo = int(input())
