@@ -1,4 +1,4 @@
-# undercovermusic
+#### undercovermusic
 
 [Agent definition document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
 
@@ -10,8 +10,9 @@
 
 ### Chord Progression Database
 https://docs.google.com/spreadsheets/d/1SHB_B4du3JVB1kvVBUEHTpZjpqHBmugWnQVnm2stGCs/edit?usp=sharing
-#### Classical Music Kaggle Download
+### Classical Music Kaggle Download
 https://www.kaggle.com/soumikrakshit/classical-music-midi
+
 #### Midi Notation
 -What is a Midi file?
 https://github.com/vishnubob/python-midi#Installation
