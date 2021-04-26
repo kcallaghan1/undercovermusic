@@ -1,4 +1,4 @@
-#### undercovermusic
+# undercovermusic
 
 [Agent definition document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
 
