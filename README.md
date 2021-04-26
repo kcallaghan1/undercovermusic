@@ -33,7 +33,7 @@ https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies
 * Step2 c: if the user chooses random Chord Progression then he/she will be provided with a random chord pregression that can be either major or minor, which they can play using the [Online Sequencer](https://onlinesequencer.net).
 * Step3: if the user chooses to quit, the music maker will terminate.
 
-#### Look up table analysis
+#### Advanced Agent: Look up table analysis
 * Step4: After the user creates/alters a text file he/she can use how good music has been made my our agent and compare it to the [older version](https://github.com/timothymarotta/aimusicmaker) of this project, which was created using Java.
 * Step5: We will use the lookup table ... 
 
