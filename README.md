@@ -10,9 +10,8 @@
 
 #### Chord Progression Database
 https://docs.google.com/spreadsheets/d/1SHB_B4du3JVB1kvVBUEHTpZjpqHBmugWnQVnm2stGCs/edit?usp=sharing
-### Classical Music Kaggle Download
+#### Classical Music Kaggle Download
 https://www.kaggle.com/soumikrakshit/classical-music-midi
-
 #### Midi Notation
 -What is a Midi file?
 https://github.com/vishnubob/python-midi#Installation
