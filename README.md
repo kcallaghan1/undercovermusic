@@ -2,7 +2,7 @@
 
 [Agent Definition Document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
 
-[AI Research Document](https://docs.google.com/document/d/1x7phFnvde3zQvrCTQr8cjssvMsfydeEX6EEBQ_0cyyc/edit)
+["Pass The Aux Cord" AI Research Document](https://docs.google.com/document/d/1x7phFnvde3zQvrCTQr8cjssvMsfydeEX6EEBQ_0cyyc/edit)
 
 #### Internal agent definition:
 - Our agent is a simple reflex agent, as it takes decisions on the basis of the current percepts and ignore the rest of the percept history. 
