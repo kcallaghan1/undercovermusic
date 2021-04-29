@@ -1,8 +1,8 @@
 # undercovermusic
 
-[Agent definition document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
+[Agent Definition Document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
 
-[Zenhub Link](https://app.zenhub.com/workspaces/undercovermusic-60745e6b8c0c700013c209c3/board?repos=355955144)
+[AI Research Document](https://docs.google.com/document/d/1x7phFnvde3zQvrCTQr8cjssvMsfydeEX6EEBQ_0cyyc/edit)
 
 #### Internal agent definition:
 - Our agent is a simple reflex agent, as it takes decisions on the basis of the current percepts and ignore the rest of the percept history. 
