@@ -24,7 +24,7 @@ Present in the UI
 Can “read” text files (minor/major/random) that can be played on [Online Sequencer](https://onlinesequencer.net).
 Present in the UI
 
-## Interfaces *Insert*
+## Interfaces **Insert**
 
 ## Instructions on how to set up/run the unit tests of the environment
 
