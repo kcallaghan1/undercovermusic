@@ -1,4 +1,5 @@
-from Simple import extract_int
+from SimpleAgent import create_melody
+
 def createMelodyTest(progression):
     print("Ran")
 
