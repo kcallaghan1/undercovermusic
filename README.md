@@ -2,8 +2,6 @@
 
 [Agent Definition Document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
 
-["Pass The Aux Cord" AI Research Document](https://docs.google.com/document/d/1x7phFnvde3zQvrCTQr8cjssvMsfydeEX6EEBQ_0cyyc/edit)
-
 #### Internal agent definition:
 - Our agent is a simple reflex agent, as it takes decisions on the basis of the current percepts and ignore the rest of the percept history. 
 - This simple AI agent is present in the src/main/SimpleAgent.py
@@ -43,6 +41,7 @@ Present in the UI
 * Step3: if the user chooses to quit, the music maker will terminate.
 
 ## Reinforcement Learning
+["Pass The Aux Cord" AI Research Document](https://docs.google.com/document/d/1x7phFnvde3zQvrCTQr8cjssvMsfydeEX6EEBQ_0cyyc/edit)
 ### Advanced Agent: Look up table analysis
 * Step4: After the user creates/alters a text file he/she can use how good music has been made my our agent and compare it to the [older version](https://github.com/timothymarotta/aimusicmaker) of this project, which was created using Java.
 * Step5: We will use the lookup table ... 
