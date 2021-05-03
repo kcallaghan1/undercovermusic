@@ -1,3 +1,4 @@
+from Simple import extract_int
 def createMelodyTest(progression):
     print("Ran")
 
