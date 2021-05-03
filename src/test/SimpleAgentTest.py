@@ -1,13 +1,16 @@
-from SimpleAgent import create_melody
+#from SimpleAgent import create_melody
+import unittest
 
-def createMelodyTest(progression):
-    print("Ran")
+class TestSimpAgentMethods(unittest.TestCase):
+
+    def test_createMelody(self):
+        a = 1
+        b = 0
+        c = 1
+        message = "does not equal"
+        self.assertEqual(a,c,message)
+        #self.assertEqual(a,b,message)
 
 
-def main():
-    createMelodyTest(0)
-
-
-if __name__ == "__main__":
-    main()
-
+if __name__ == '__main__':
+    unittest.main()

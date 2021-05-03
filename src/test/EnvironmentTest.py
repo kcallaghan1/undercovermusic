@@ -1,20 +1,27 @@
-from Environment import extract_int, convert_midi_to_txt, convert_txt_to_midi
+import unittest
 
-def extractIntTest(word):
-    print("Ran")
+#from src\main\Environment.py import extract_int, convert_midi_to_txt, convert_txt_to_midi
 
-def convertMidiToTextTest(midi_file):
-    print("Ran")
+class TestEnvironmentMethods(unittest.TestCase):
+    def test_extractInt(self):
+        a = 1
+        b = 1
+        message = "not equal"
+        self.assertEquals(a,b,message)
+    
+    def test_convertMidiToText(self):
+        return 0
+    
+        
+    def test_convertTextToMidi(self):
+        return 0
 
-def convertTextToMidiTest(progression):
-    print ("Ran")
 
-
-def main():
+""" def main():
     extractIntTest(0)
     convertMidiToTextTest(0)
-    convertTextToMidiTest(0)
+    convertTextToMidiTest(0) """
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    unittest.main()
