@@ -1,9 +1,9 @@
-def createMelodyTest():
+def createMelodyTest(progression):
     print("Ran")
 
 
 def main():
-    createMelodyTest()
+    createMelodyTest(0)
 
 
 if __name__ == "__main__":
