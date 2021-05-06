@@ -22,7 +22,8 @@ Present in the UI
 Can “read” text files (minor/major/random) that can be played on [Online Sequencer](https://onlinesequencer.net).
 Present in the UI
 
-## Interfaces *Insert*
+## Interface
+If you were to create an agent to function in our environment, it would need one function called create_melody(). This function has two parameters, the first being the name of the file to read the music from, and the second being the name of the file that it will output new music to. To get your function running in the environment, change the second line of the UserInterface.py program from "SimpleAgent.py" to whatever the name of the python file that holds your agent is.
 
 ## Instructions on how to set up/run the unit tests of the environment
 
