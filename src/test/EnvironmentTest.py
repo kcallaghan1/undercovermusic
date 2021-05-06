@@ -1,6 +1,6 @@
 import unittest
 
-#from src\main\Environment.py import extract_int, convert_midi_to_txt, convert_txt_to_midi
+from main import extract_int, convert_midi_to_txt, convert_txt_to_midi
 
 class TestEnvironmentMethods(unittest.TestCase):
     def test_extractInt(self):
