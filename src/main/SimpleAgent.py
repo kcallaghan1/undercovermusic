@@ -1,8 +1,8 @@
-# This is a simple melody making agent, defined by the interface in Interface.py
+# This is a simple melody making agent, defined by the interface in the readme.
 from Environment import extract_int
 
 # Adds a melody to a text file representing MIDI music
-def create_melody(progression):
+def create_melody(progression, output):
     txt_file = open("midi/" + progression + ".txt", "r+")
     lines = txt_file.readlines()
     i = 0
@@ -16,9 +16,7 @@ def create_melody(progression):
 
         else:
             i += 1
-    new_key = "newSong2"
-    new_file = open("midi/" + new_key + ".txt", "w")
+    new_file = open("midi/" + output + ".txt", "w")
     for line in lines:
         new_file.write(line)
-    return new_key
     
