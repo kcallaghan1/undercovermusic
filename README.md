@@ -2,9 +2,7 @@
 
 ## Internal agent definition:
 [Agent Definition Document](https://docs.google.com/document/d/1YfatTyF1Ui6guxlBx6pBeKooGJN84Sf_J7s8BFprLtY/edit?usp=sharing)
-- Our agent is a simple reflex agent, as it takes decisions on the basis of the current percepts and ignore the rest of the percept history. 
-- This simple AI agent is present in the src/main/SimpleAgent.py
-
+- Our agent is a simple reflex agent, as it takes decisions on the basis of the current percepts and ignore the rest of the percept history.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 #### Background Resources
 ##### Chord Progression Database
@@ -18,7 +16,12 @@ https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Interface
-### How To Start Guide: Add Your Own Agent
+### How To Start Guide:
+Simple AI agent: *src/main/simpleAgent.py*
+
+Advanced AI agent: *src/main/userInterface.py*
+
+### Add Your Own Agent:
 If you were to create an agent to function in our environment, it would need one function called create_melody(). This function has two parameters, the first being the name of the file to read the music from, and the second being the name of the file that it will output new music to. To get your function running in the environment, change the second line of the UserInterface.py program from "SimpleAgent" to whatever the name of the python file that holds your agent is.
 
 ### Actuators:
