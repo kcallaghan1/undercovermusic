@@ -4,7 +4,7 @@ from mido import Message, MetaMessage, MidiFile, MidiTrack
 import os
 
 def main():
-    mid = MidiFile('midi/I_V_vi_IV_bak.mid')
+    mid = MidiFile('midi/Untitled_2044026_1.mid')
     for i, track in enumerate(mid.tracks):
         print('Track {}: {}'.format(i, track.name))
         for msg in track:

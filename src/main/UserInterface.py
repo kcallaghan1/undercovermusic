@@ -1,5 +1,5 @@
-from Environment import *
-from SimpleAgent import *
+from Environment import set_tonic, create_chord_progression, create_midi_from_chord_list, convert_midi_to_txt, convert_txt_to_midi
+from SimpleAgent import create_melody
 
 
 def main():
@@ -23,9 +23,10 @@ def main():
             chords = create_chord_progression(root)
             filename = input("Please name your chord progression midi file:\n")
             division = input("Enter division of progression - (w)hole, (h)alf, or (q)uarter:\n")
-            create_midi_from_chord_list(chords, filename, division)
+            mid = create_midi_from_chord_list(chords, filename, division)
             convert_midi_to_txt("midi/" + filename + ".mid")
             output = input("Name the output midi file:\n")
+            #create_melody(chords, mid, output)
             create_melody(filename, output)
             convert_txt_to_midi(output)
 

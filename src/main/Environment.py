@@ -208,3 +208,7 @@ def create_midi_from_chord_list(chords, filename, division):
     mid.save("midi/" + filename + ".mid")
     
     print("Generated file successfully.")
+    return mid
+
+
+convert_midi_to_txt("midi/output.mid")
