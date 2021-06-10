@@ -1,5 +1,5 @@
 from Environment import set_tonic, create_chord_progression, create_midi_from_chord_list, convert_midi_to_txt, convert_txt_to_midi
-from SimpleAgent import create_melody
+from SimpleAgent2 import create_melody
 
 
 def main():
@@ -16,19 +16,20 @@ def main():
         #print("1. Create Chord Progression\n2. Choose Pre-made Chord Progression\n3. Random Chord Progression\n4. Quit")
         print("1. Create Chord Progression\n2. Quit")
         choiceToDo = int(input())
+        # code
 
         if choiceToDo==1:
             key = input("Enter a key for the progression:\n")
             root = set_tonic(key)
             chords = create_chord_progression(root)
             filename = input("Please name your chord progression midi file:\n")
-            division = input("Enter division of progression - (w)hole, (h)alf, or (q)uarter:\n")
-            mid = create_midi_from_chord_list(chords, filename, division)
-            convert_midi_to_txt("midi/" + filename + ".mid")
+            #division = input("Enter division of progression - (w)hole, (h)alf, or (q)uarter:\n")
+            mid = create_midi_from_chord_list(chords, filename, "w")
+            #convert_midi_to_txt("midi/" + filename + ".mid")
             output = input("Name the output midi file:\n")
-            #create_melody(chords, mid, output)
-            create_melody(filename, output)
-            convert_txt_to_midi(output)
+            create_melody(chords, mid, output)
+            #create_melody(filename, output)
+            #convert_txt_to_midi(output)
 
         else:
             exit()

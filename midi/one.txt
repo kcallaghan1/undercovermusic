@@ -5,28 +5,28 @@ Track 0:
 Track 1: Smooth Synth
 <meta message track_name name='Smooth Synth' time=0>
 program_change channel=0 program=80 time=0
-note_on channel=0 note=59 velocity=50 time=0
-note_on channel=0 note=62 velocity=50 time=0
-note_on channel=0 note=66 velocity=50 time=0
-note_off channel=0 note=59 velocity=50 time=768
-note_off channel=0 note=62 velocity=50 time=0
-note_off channel=0 note=66 velocity=50 time=0
 note_on channel=0 note=57 velocity=50 time=0
-note_on channel=0 note=61 velocity=50 time=0
+note_on channel=0 note=60 velocity=50 time=0
 note_on channel=0 note=64 velocity=50 time=0
 note_off channel=0 note=57 velocity=50 time=768
-note_off channel=0 note=61 velocity=50 time=0
+note_off channel=0 note=60 velocity=50 time=0
 note_off channel=0 note=64 velocity=50 time=0
-note_on channel=0 note=50 velocity=50 time=0
+note_on channel=0 note=55 velocity=50 time=0
+note_on channel=0 note=59 velocity=50 time=0
+note_on channel=0 note=62 velocity=50 time=0
+note_off channel=0 note=55 velocity=50 time=768
+note_off channel=0 note=59 velocity=50 time=0
+note_off channel=0 note=62 velocity=50 time=0
 note_on channel=0 note=53 velocity=50 time=0
 note_on channel=0 note=57 velocity=50 time=0
-note_off channel=0 note=50 velocity=50 time=768
-note_off channel=0 note=53 velocity=50 time=0
+note_on channel=0 note=60 velocity=50 time=0
+note_off channel=0 note=53 velocity=50 time=768
 note_off channel=0 note=57 velocity=50 time=0
-note_on channel=0 note=54 velocity=50 time=0
-note_on channel=0 note=58 velocity=50 time=0
-note_on channel=0 note=61 velocity=50 time=0
-note_off channel=0 note=54 velocity=50 time=768
-note_off channel=0 note=58 velocity=50 time=0
-note_off channel=0 note=61 velocity=50 time=0
+note_off channel=0 note=60 velocity=50 time=0
+note_on channel=0 note=52 velocity=50 time=0
+note_on channel=0 note=56 velocity=50 time=0
+note_on channel=0 note=59 velocity=50 time=0
+note_off channel=0 note=52 velocity=50 time=768
+note_off channel=0 note=56 velocity=50 time=0
+note_off channel=0 note=59 velocity=50 time=0
 <meta message end_of_track time=0>
